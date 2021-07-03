@@ -1,0 +1,30 @@
+body{font-family: 'Poppins',
+sans-serif;
+margin: 0;}
+
+h1{
+    font-size:50px;
+}
+section{
+    background-image: url(image/top-banner.png);
+    display: flex;
+    
+}
+.name-color{
+    color: tomato;
+}
+.half-width{
+    width: 100%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 85%;
+}
+.hire-button{
+    text-decoration: none;
+    background: tomato;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+}
