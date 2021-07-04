@@ -5,6 +5,9 @@ margin: 0;}
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 40px;
+}
 .top-banner {
     background-image: url(image/top-banner.png);
     display: flex;
@@ -36,4 +39,33 @@ h1{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+    margin-bottom: 100px;
+}
+.exp-bd{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    display:flex;
+    margin-bottom: 150px;
+    background-position: left;
+}
+.exp-dev{
+    padding: 20px;
+    box-shadow: 10px 20px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#full-stuck {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer P{
+    text-align: center;
 }
